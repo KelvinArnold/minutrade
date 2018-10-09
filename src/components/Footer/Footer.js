@@ -3,13 +3,13 @@ import {Link} from 'react-router-dom';
 
 export default () => {
   return (
-    <div className="row">
+    <div className="row minu-trade-footer">
       <div className="d-flex w-100 justify-content-center bg-black fixed-bottom">
         <nav className="col-12 col-lg-10 navbar navbar-expand-sm">
           <Link to="/" className="navbar-brand tc-white">
-            Minutrade
+            <small>Minutrade</small>
           </Link>
-          <div className="navbar-collapse">
+          <div className="collapse navbar-collapse">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item ">
                 <Link to="/products" className="nav-link tc-white">

@@ -11,6 +11,13 @@ class CommentList extends Component {
   }
   renderComments() {
     const { comments } = this.props;
+    if (!comments) {
+      return (
+        <div className="">
+          Loading...
+        </div>
+      )
+    }
     if (!comments.length) {
       return (
         <div className="">
@@ -30,7 +37,7 @@ class CommentList extends Component {
   }
   render() {
     return (
-      <div className="col-12 pl-3 pr-3 pt-3 mt-3 mb-3">
+      <div className="col-12 pl-3 pr-3 pt-3 pb-2 mt-3 mb-3">
         <h5 className="mb-3">Lista de commentarios</h5>
         {this.renderComments()}
         <CommentFormContainer 

@@ -9,7 +9,6 @@ const fetchProducts = () => {
     payload: req
   }
 };
-
 // Export All Actions
 export {
   fetchProducts

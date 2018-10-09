@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { CommentsListContainer } from "./../../Comments";
-
 class ProductItem extends Component {
   constructor(props) {
     super(props);
