@@ -8,6 +8,7 @@ class Home extends Component {
         <ul className="list-group">
           <li className="list-group-item">
             <Link to="/products" className="tc-black">Lista de Produtos</Link>
+            <Link to="/products" className="tc-black">Lista de Produtos 2</Link>
           </li>
           <li className="list-group-item">
             <Link to="/address" className="tc-black">Lojas Fisicas</Link>
